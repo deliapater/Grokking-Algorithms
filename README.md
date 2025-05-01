@@ -14,7 +14,7 @@ This repository is my personal journey through the book **"Grokking Algorithms" 
 
 ## 📖 Progress
 
-- [x] Chapter 1 - Introduction to Algoritms
+- [x] Chapter 1 - Introduction to Algorithms
 - [ ] Chapter 2 - Selection Sort
 - [ ] Chapter 3 - Recursion
 - [ ] Chapter 4 - Quicksort
