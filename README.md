@@ -1,6 +1,6 @@
 # Grokking Algorithms in JavaScript 🧠✨
 
-This repository is my personal journey through the book **Grokking Algorithms" by Aditya Bhargava**. The book introduces fundamental computer science concepts through friendly explanations and illustrations. I'm translating each concept and excercise into JavaScript as a way to reinforce my learning.
+This repository is my personal journey through the book **"Grokking Algorithms" by Aditya Bhargava**. The book introduces fundamental computer science concepts through friendly explanations and illustrations. I'm translating each concept and excercise into JavaScript as a way to reinforce my learning.
 
 ## 📚 About the Book
 
@@ -20,3 +20,10 @@ This repository is my personal journey through the book **Grokking Algorithms" b
 - [ ] Chapter 4 - Quicksort
 - [ ] Chapter 5 - Hash Tables
 - [ ] ... (more comming soon)
+
+## 🛠️ How to Use
+
+Clone the repository and run any file using Node.js"
+
+```bash
+node chapter-1/binary-search/binarySearch
