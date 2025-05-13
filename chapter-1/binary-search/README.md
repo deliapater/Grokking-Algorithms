@@ -29,3 +29,10 @@
 `` You're performing an operation on each item in the list. ``
 `` This is a classic example of linear time. ``
 `` Time complexity: 0(n) ``
+
+### 1.6 You want to read the numbers of just the As. (This is a tricky one! It covers concepts that are covered more in chapter 4. Read the answer - you may be surprised!)
+
+`` Sorted list (by name) ``
+`` - Use binary search to find where "A" names start ``
+`` Then read through all the "A" entries ``
+`` Time complexity: 0(log n + k) where k = number of A-names ``
