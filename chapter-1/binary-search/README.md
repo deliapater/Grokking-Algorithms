@@ -18,3 +18,8 @@
 
 `` Sorted List (alphabetical) using binary Search ``
 `` Time Complexity: 0log(n) ``
+
+### 1.4 You have a phone number, and you want to find the person's name in the phone book. (Hint: You'll have to search through the whole book!)
+
+`` This requires linear search because phone numbers are not typically used as lookup keys unless explicitly designed that way. Every entry needs to be search to find a match. ``
+`` Time complexity: 0(n) ``
