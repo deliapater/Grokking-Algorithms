@@ -14,18 +14,26 @@ function findNameByPhoneNumber(phoneBook, targetPhone) {
 }
 
 const phoneBook = [
-    { name: "Alice", phone: "555-0101" },
-    { name: "Bob", phone: "555-0102" },
-    { name: "Charlie", phone: "555-0103" },
-    { name: "Diana", phone: "555-0104" },
-    { name: "Eve", phone: "555-0105" },
+  { name: "Alice", phone: "555-0101" },
+  { name: "Bob", phone: "555-0102" },
+  { name: "Charlie", phone: "555-0103" },
+  { name: "Diana", phone: "555-0104" },
+  { name: "Eve", phone: "555-0105" },
 ];
 
 const targetPhone = "555-0104";
 const result = findNameByPhoneNumber(phoneBook, targetPhone);
 
 if (result) {
-    console.log(`The phone number ${targetPhone} belongs to ${result}.`);
+  console.log(`The phone number ${targetPhone} belongs to ${result}.`);
 } else {
-    console.log(`No entry found for phone number ${targetPhone}.`);
+  console.log(`No entry found for phone number ${targetPhone}.`);
 }
+
+function readAllPhoneNumbers(phoneBook) {
+  phoneBook.forEach((entry) => {
+    console.log(`${entry.name}: ${entry.phone}`);
+  });
+}
+
+readAllPhoneNumbers(phoneBook);
