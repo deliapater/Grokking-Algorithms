@@ -1,3 +1,7 @@
+/**
+ * Excercise 2.2
+ */
+
 // Node structure for the linked list
 class Node {
   constructor(order) {
