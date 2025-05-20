@@ -1,4 +1,6 @@
 /**
+ * Excercise 1.1
+ * ---------------
  * Binary search works by diving the list in half each time. The maximum number of guesses is the number of times
  * you can divide the list in half before you get to just 1 item.
  * @param {number} n
