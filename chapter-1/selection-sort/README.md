@@ -24,6 +24,8 @@
 
 ``The users will be append at the end of the array this will required to sort the array everytime an user has been inserted, which will make the sign up proccess very slow``
 
+``In JavaScript, if you're storing users in a sorted array (for binary search), then adding a new user breaks the sort order unless you insert it at the correct position and re-sort the array - both of which cost performance.``
+
 ### 2.5 In reality, Facebook uses neither an array nor a linked list to store user information. Let's consider a hybrid data structure: an array of linked lists. You have an array with 26 slots. Each slot points to a linked list. For example, the first slot in the array points to a linked list. For example, the first slot in the array points to a linked list containing all the usernames starting with a. The second slot points to a linked list containing all the usernames starting with b, and so on.
 
 ### Suppose Adit B signs up for Facebook, and you want to add them to the list. You go to slot 1 in the array, go to the linked list for slot 1, and add Adit B at the end. Now, suppose you want to search for Zakhir H. You got slot 26, which points to a linked list of all the Z names. Then you search through that list to find Zakhir H.
