@@ -1,4 +1,6 @@
 /**
+ * Excercise 1.4
+ * ---------------
  * @param {Array} phoneBook - Array of objects with 'name' and 'phone'
  * @param {string} targetPhone - The phone number to search for
  * @returns {string|null} -  Name if found, or null
@@ -29,6 +31,11 @@ if (result) {
 } else {
   console.log(`No entry found for phone number ${targetPhone}.`);
 }
+
+/**
+ * Excercise 1.5
+ * ---------------
+ */
 
 function readAllPhoneNumbers(phoneBook) {
   phoneBook.forEach((entry) => {

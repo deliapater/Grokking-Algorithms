@@ -1,4 +1,6 @@
 /**
+ * Excercise 1.3
+ * ---------------
  * Performs binary search on a sorted array of people to find a phone number.
  * @param {Array} phoneBook - Sorted array of objects with 'name' and 'phone'
  * @param {string} targetName - The name to search for
