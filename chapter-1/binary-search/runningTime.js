@@ -1,6 +1,8 @@
 /**
  * Excercise 1.3
  * ---------------
+ * Sorted List (alphabetical) using binary Search
+   Time Complexity: 0log(n) 
  * Performs binary search on a sorted array of people to find a phone number.
  * @param {Array} phoneBook - Sorted array of objects with 'name' and 'phone'
  * @param {string} targetName - The name to search for

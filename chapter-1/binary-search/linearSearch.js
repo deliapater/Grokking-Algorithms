@@ -1,6 +1,9 @@
 /**
  * Excercise 1.4
  * ---------------
+ * This requires linear search because phone numbers are not typically used as lookup keys unless
+ * explicitly designed that way. Every entry needs to be search to find a match
+ * Time complexity: 0(n) 
  * @param {Array} phoneBook - Array of objects with 'name' and 'phone'
  * @param {string} targetPhone - The phone number to search for
  * @returns {string|null} -  Name if found, or null
@@ -35,6 +38,9 @@ if (result) {
 /**
  * Excercise 1.5
  * ---------------
+ * You're performing an operation on each item in the list.
+   This is a classic example of linear time.
+   Time complexity: 0(n) 
  */
 
 function readAllPhoneNumbers(phoneBook) {

@@ -16,6 +16,7 @@ console.log("Steps for 128 items:", maxBinarySearchSteps(128));
 /**
  * Excercise 1.2
  * ---------------
+ * Maximum number of steps = Log2(n)
  */
 function doubleListSizeAndGetSteps(n) {
   const doubledSize = n * 2;
