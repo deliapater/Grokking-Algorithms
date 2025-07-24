@@ -1,12 +1,12 @@
 /**
  * Excercise 3.1
  * ---------------
- * Simulates the call stack behavior with two functions: `greet2` and `greet`.
+ * Simulates the call stack behavior with two functions: greet2 and greet.
  *
- * 1. `greet2(name)` is called and goes onto the call stack.
- * 2. It calls `greet(name)`, which is added to the stack.
- * 3. `greet()` finishes and is removed (popped).
- * 4. `greet2()` resumes and is removed after finishing.
+ * 1. greet2(name) is called and goes onto the call stack.
+ * 2. It calls greet(name), which is added to the stack.
+ * 3. greet() finishes and is removed (popped).
+ * 4. greet2(` resumes and is removed after finishing.
  * @param {string} name - The name to greet
  */
 
@@ -15,7 +15,7 @@ function greet(name) {
   console.log(`Name: ${name}`);
 }
 /**
- * Calls `greet()` from within and prints the name before and after.
+ * Calls greet() from within and prints the name before and after.
  *
  * @param {string} name - The name to greet
  */
@@ -44,7 +44,7 @@ console.log(factorial(5));
 
 /**
  * Excercise 3.2
- * JS has a recursion limit (`RangeError: Maximum call stack size exceeded`) if `n` is too large. If you're dong factorials for large numbers, use iteration instead
+ * JS has a recursion limit (RangeError: Maximum call stack size exceeded) if n is too large. If you're dong factorials for large numbers, use iteration instead
  * @param {number} n A non-negative integer
  * @retunrs {number} factorial of n
  */
