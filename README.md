@@ -15,8 +15,8 @@ This repository is my personal journey through the book **"Grokking Algorithms" 
 ## 📖 Progress
 
 - [x] Chapter 1 - Introduction to Algorithms
-- [ ] Chapter 2 - Selection Sort
-- [ ] Chapter 3 - Recursion
+- [x] Chapter 2 - Selection Sort
+- [x] Chapter 3 - Recursion
 - [ ] Chapter 4 - Quicksort
 - [ ] Chapter 5 - Hash Tables
 - [ ] ... (more comming soon)

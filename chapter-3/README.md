@@ -6,3 +6,5 @@
 `` Greet ``
 `` Name: Maggie ``
 `` What information can you give me, just based on this stack call? ``
+
+### 3.2 Suppose you accidentally write a recursion function  that runs forever. As you saw, your computer allocates memory on the stack for each function call. What happens to the stack when your recursive function runs forever?
