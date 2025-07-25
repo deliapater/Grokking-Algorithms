@@ -1,5 +1,5 @@
 /**
- * Excercise 1.1
+ * Exercise 1.1
  * ---------------
  * Binary search works by diving the list in half each time. The maximum number of guesses is the number of times
  * you can divide the list in half before you get to just 1 item.
@@ -14,7 +14,7 @@ function maxBinarySearchSteps(n) {
 console.log("Steps for 128 items:", maxBinarySearchSteps(128));
 
 /**
- * Excercise 1.2
+ * Exercise 1.2
  * ---------------
  * Maximum number of steps = Log2(n)
  */

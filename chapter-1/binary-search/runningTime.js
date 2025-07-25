@@ -1,5 +1,5 @@
 /**
- * Excercise 1.3
+ * Exercise 1.3
  * ---------------
  * Sorted List (alphabetical) using binary Search
    Time Complexity: 0log(n) 

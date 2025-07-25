@@ -1,5 +1,5 @@
 /**
- * Excercise 1.4
+ * Exercise 1.4
  * ---------------
  * This requires linear search because phone numbers are not typically used as lookup keys unless
  * explicitly designed that way. Every entry needs to be search to find a match
@@ -36,7 +36,7 @@ if (result) {
 }
 
 /**
- * Excercise 1.5
+ * Exercise 1.5
  * ---------------
  * You're performing an operation on each item in the list.
    This is a classic example of linear time.

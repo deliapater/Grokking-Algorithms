@@ -1,5 +1,5 @@
 /**
- * Excersice 4.1
+ * Exercise 4.1
  * ---------------
  * Sum Function
  * @param {number[]} Array of numbers
@@ -12,7 +12,7 @@ function sum(arr) {
 console.log("\n--- Array Sum Demo ---");
 console.log(sum([1, 2, 3, 4]));
 
-/** Excercise 4.2
+/** Exercise 4.2
  * ---------------
  * Recursively counts the number of elements in an array.
  * @param {any[]} arr - The rray to count items in
@@ -27,7 +27,7 @@ console.log("\n--- Number of Items Demo ---");
 console.log(countItems([10, 20, 30, 40]));
 
 /**
- * Excervise 4.3
+ * Exercise 4.3
  * ---------------
  * Recursively finds the maximum number in a array
  * @param {number []} arr - Array of numbers
@@ -44,7 +44,7 @@ console.log("\n--- Max Number Demo ---");
 console.log(findMax([3, 9, 2, 5, 11, 4]));
 
 /**
- * Excercise 4.4
+ * Exercise 4.4
  * ---------------
  * Recursively calculates the max number of steps for binary search
  * @param {number} n - Numver of items in the list

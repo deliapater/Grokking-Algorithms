@@ -1,5 +1,5 @@
 /**
- * Excercise 2.1
+ * Exercise 2.1
  * -----------------------------------
  * Suppose you're building an app to keep track of your finances.
         1. Groceries

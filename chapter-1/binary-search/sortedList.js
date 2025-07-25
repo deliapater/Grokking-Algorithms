@@ -1,5 +1,5 @@
 /**
- * Excercise 1.6
+ * Exercise 1.6
  * ---------------
  * Finds the range of entries whose names start with a given letter.
  * Assumes the phone book is sorted by name.

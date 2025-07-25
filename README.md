@@ -26,4 +26,4 @@ This repository is my personal journey through the book **"Grokking Algorithms" 
 Clone the repository and run any file using Node.js"
 
 ```bash
-node chapter-1/binary-search/binarySearch
+node chapter-{#}/{pathToFile.js}
