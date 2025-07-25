@@ -28,10 +28,46 @@
 ## For each of these examples, which hash function would provide a good distribution? Assume a hash table size of 10 slots.
 
 ### 5.5 A phonebook where the keys are names and values are phone numners. The names are as follows: Esther, Ben, and Dan.
-`` C and D will give a good distribution``
+
+A: ❌ All map to index 1
+
+B: "Esther"(6), "Ben"(3), "Dan"(3) → Indexes: 6, 3, 3 → Some collisions
+
+C: "E", "B", "D" → Indexes based on chars: 69, 66, 68 → 69 % 10 = 9, etc. ✅
+
+D: Uses full string content → more spread ✅
 
 ### 5.6. A mapping from battery size to power. The size are A, AA, AAA, and AAAA.
-`` B and D will give a good distribution``
+
+Sizes: "A", "AA", "AAA", "AAAA"
+
+A: ❌ All → 1
+
+B: Lengths: 1, 2, 3, 4 → Indexes: 1, 2, 3, 4 ✅
+
+C: All start with "A" → all map to same index ❌
+
+D: Uses all chars ("A" = 2), so:
+
+"A": 2 % 10 = 2
+
+"AA": 2 + 2 = 4 % 10 = 4
+
+"AAA": 6 % 10 = 6
+
+"AAAA": 8 % 10 = 8 ✅
 
 ### 5.7 A mapping from book titles to authors, The titles are Maus, Fun Home, and Watchment
-`` B, C and D will give a good distribution``
+
+Titles: "Maus", "Fun Home", "Watchmen"
+
+A: ❌ Everything → 1
+
+B: Lengths: 4, 8, 8 → Indexes: 4, 8, 8 → One collision
+
+C: First letters: "M", "F", "W" → likely different indexes ✅
+
+D: Whole string primes → decent spread ✅
+
+✅ Answer: C and D mostly.
+✅ B gives some distribution, but not perfect. Including it is okay, though not ideal.

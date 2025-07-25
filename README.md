@@ -18,7 +18,7 @@ This repository is my personal journey through the book **"Grokking Algorithms" 
 - [x] Chapter 2 - Selection Sort
 - [x] Chapter 3 - Recursion
 - [x] Chapter 4 - Quicksort
-- [ ] Chapter 5 - Hash Tables
+- [x] Chapter 5 - Hash Tables
 - [ ] ... (more comming soon)
 
 ## 🛠️ How to Use
