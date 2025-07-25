@@ -5,7 +5,33 @@
  * @param {number} hashSize - Table size
  * @returns {number} - The computed hash index
  */
-function hashD(str, tableSize = 10) {
+
+function hashA(key, hashSize) {
+  return 1 % hashSize;
+}
+
+function hashB(key, hashSize) {
+  return key.length % hashSize;
+}
+
+function hashC(key, hashSize) {
+  const firstChar = key[0].toLowerCase();
+  return firstChar.charCodeAt(0) % hashSize;
+}
+
+console.log("\n-- Hashes Demo ---");
+const keys = ["Esther", "Ben", "Dan"];
+const hashSize = 10;
+
+for (const key of keys) {
+  console.log(`Key: ${key}`);
+  console.log(`  A: ${hashA(key, hashSize)}`);
+  console.log(`  B: ${hashB(key, hashSize)}`);
+  console.log(`  C: ${hashC(key, hashSize)}`);
+  console.log(`  D: ${hashD(key, hashSize)}`);
+}
+
+function hashD(str, hashSize) {
   const primeMap = {
     a: 2,
     b: 3,
@@ -41,7 +67,5 @@ function hashD(str, tableSize = 10) {
       sum += primeMap[char];
     }
   }
-  return sum % tableSize;
+  return sum % hashSize;
 }
-console.log("\n-- Hash D Demo ---");
-console.log(hashD("bag"));
