@@ -13,7 +13,7 @@
 ## How long would each of these operations take in Big O notation?
 
 ### 4.5 Printing the value of each element in an array.
-`` O(n linear) - Linear Time ``
+`` O(n) - Linear Time ``
 
 ### 4.6 Doubling the value of each element in an array.
 `` O(n) — You touch every element once, doing one multiplication per element. ``
