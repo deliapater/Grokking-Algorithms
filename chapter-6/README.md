@@ -79,10 +79,13 @@ This is called a tree. A tree is a special type of graph, where no edges ever po
 ### 6.5 Which of the following graph are also trees?
 
 ![A](../assets/6.5.a_graph.png)
+`` A ``
 
 ![B](../assets/6.5.b_graph.png)
+`` B ``
 
 ![C](../assets/6.5.c_graph.png)
+`` C ``
 
 Answer:
 `A` and `C` are also trees.
