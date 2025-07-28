@@ -8,6 +8,6 @@ Answer:
 The shortest path length is ``2``.
 
 ### 6.3 Find the lenght of the shortest path from "cab" to "bat"
-![6.12 Graph](../assets/6.2_graph.png)
+![6.2 Graph](../assets/6.2_graph.png)
 Answer:
 The shortest path length is ``3``.
