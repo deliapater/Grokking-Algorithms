@@ -11,6 +11,6 @@ The shortest path is `8`.
 `` B ``
 The shortest path is `60`.
 
-![C](../assets/7.c.b_graph.png)
+![C](../assets/7.1c.b_graph.png)
 `` C ``
 Disjkstra's diagram cannot be implemented on negative numbers
