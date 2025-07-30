@@ -21,7 +21,7 @@ This repository is my personal journey through the book **"Grokking Algorithms" 
 - [x] Chapter 5 - Hash Tables
 - [x] Chapter 6 - Breadth-first search
 - [x] Chapter 7 - Dijkstra's algorithm
-- [ ] Chapter 8 - Greedy algorithms
+- [x] Chapter 8 - Greedy algorithms
 - [ ] Chapter 9 - Dynamic programing
 - [ ] Chapter 10 - K-nearest neighbors
 - [ ] Chapter 11 - Where to go next
