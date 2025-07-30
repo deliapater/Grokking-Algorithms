@@ -10,5 +10,5 @@
 * Jacket, 2lb, 5
 * Camera, 1lb, 6
 
-What is the optimal set of items to take on your camping trip?
+### What is the optimal set of items to take on your camping trip?
 `` Water, Food and a Camera ``
