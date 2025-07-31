@@ -14,4 +14,4 @@
 `` Water, Food and a Camera ``
 
 ### 9.3 Draw and fill in the grid to calculate the longest common substring between blue and clues
-![Grid](../assets/9.3._grid.png)
+![Grid](../assets/9.3_grid.png)
