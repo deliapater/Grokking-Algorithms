@@ -23,8 +23,7 @@ This repository is my personal journey through the book **"Grokking Algorithms" 
 - [x] Chapter 7 - Dijkstra's algorithm
 - [x] Chapter 8 - Greedy algorithms
 - [x] Chapter 9 - Dynamic programing
-- [ ] Chapter 10 - K-nearest neighbors
-- [ ] Chapter 11 - Where to go next
+- [x] Chapter 10 - K-nearest neighbors
 
 ## 🛠️ How to Use
 

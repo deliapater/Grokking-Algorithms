@@ -7,3 +7,7 @@
 ### 10.2 Suppose Netflix nominates a group og "influencers". For example, Wuentin Tarantino and Wes Anderson are influencers on Netflix, so their ratings count for more than a normal user's, How would you change the recommendations system so it's biased toward the ratings of influencers?
 
 `` You could give more weight to the influencers when using KNN. Suposse you have three neighbors: Joe, Dave and Wes Anderson (an influencer). They rated Caddyshack a 3, a 4, and a 5, respectively. Instead of just taking an avarage of their ratings (3 + 4 + 5 / 3 = 4 stars), you could give Wes Anderson's rating more weight: 3 + 4 + 5 + 5 + 5 / 5 = 4.4 stars ``
+
+### 10.3 Netflix has millions of users. The earlier example looked at five closest neihgbors for building the recommendations system. Is this number too low? Too high?
+
+`` The number is too low. A good rule of tumb is, if you have N users, you should look at sqrt(N) neighbors ``
