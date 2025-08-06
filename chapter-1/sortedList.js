@@ -36,14 +36,6 @@ function findEntriesByFirstLetter(phoneBook, startLetter) {
   return results;
 }
 
-const phoneBook = [
-  { name: "Aaron", phone: "555-0100" },
-  { name: "Alice", phone: "555-0101" },
-  { name: "Bob", phone: "555-0102" },
-  { name: "Charlie", phone: "555-0103" },
-  { name: "Diana", phone: "555-0104" },
-  { name: "Eve", phone: "555-0105" },
-];
-
-const aEntries = findEntriesByFirstLetter(phoneBook, "A");
-aEntries.forEach((entry) => console.log(`${entry.name}: ${entry.phone}`));
+module.exports = {
+  findEntriesByFirstLetter
+}

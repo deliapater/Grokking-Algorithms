@@ -26,15 +26,6 @@ const phoneBook = [
   { name: "Eve", phone: "555-0105" },
 ];
 
-const targetPhone = "555-0104";
-const result = findNameByPhoneNumber(phoneBook, targetPhone);
-
-if (result) {
-  console.log(`The phone number ${targetPhone} belongs to ${result}.`);
-} else {
-  console.log(`No entry found for phone number ${targetPhone}.`);
-}
-
 /**
  * Exercise 1.5
  * ---------------

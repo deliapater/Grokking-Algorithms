@@ -3,6 +3,8 @@ const {
     readAllPhoneNumbers
 } = require("../../chapter-1/linearSearch")
 
+const linearSearch = require("../../chapter-1/linearSearch")
+
 const samplePhoneBook = [
     { name: "Alice", phone: "555-0101" },
     { name: "Bob", phone: "555-0102" },
@@ -27,3 +29,20 @@ describe('findNameByPhoneNumber', () => {
         expect(findNameByPhoneNumber(duplicatePhoneBook, '123')).toBe('Tom');
     });
 });
+
+describe('readAllPhoneNumbers', () => {
+    test('should call console.log for each entry', () => {
+      const spy = jest.spyOn(console, 'log').mockImplementation(() => {});
+      
+      const sampleBook = [
+        { name: "Alice", phone: "555-0101" },
+        { name: "Bob", phone: "555-0102" }
+      ];
+      
+      linearSearch.readAllPhoneNumbers(sampleBook);
+  
+      expect(spy).toHaveBeenCalledTimes(sampleBook.length);
+      
+      spy.mockRestore();
+    });
+  });
