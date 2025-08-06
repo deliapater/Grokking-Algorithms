@@ -50,3 +50,8 @@ function readAllPhoneNumbers(phoneBook) {
 }
 
 readAllPhoneNumbers(phoneBook);
+
+module.exports = {
+  findNameByPhoneNumber,
+  readAllPhoneNumbers
+}

@@ -11,7 +11,6 @@ function maxBinarySearchSteps(n) {
   // Math.ceil() is a buit-in JavaScript function that rounds a number up to the nearest integer. It always returns the smallest integer greater than or equal to the given number.
   return Math.ceil(Math.log2(n));
 }
-console.log("Steps for 128 items:", maxBinarySearchSteps(128));
 
 /**
  * Exercise 1.2
@@ -22,4 +21,8 @@ function doubleListSizeAndGetSteps(n) {
   const doubledSize = n * 2;
   return maxBinarySearchSteps(doubledSize);
 }
-console.log("Steps for 256 items:", doubleListSizeAndGetSteps(128));
+
+module.exports = {
+  maxBinarySearchSteps,
+  doubleListSizeAndGetSteps,
+};
