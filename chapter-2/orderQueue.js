@@ -60,7 +60,11 @@ kitchenQueue.enqueue("Burger");
 kitchenQueue.enqueue("Pasta");
 kitchenQueue.enqueue("Salad");
 
-kitchenQueue.printQueue();
+ kitchenQueue.printQueue();
 
 console.log("Chef is making:", kitchenQueue.dequeue());
 kitchenQueue.printQueue();
+
+module.exports = {
+  OrderQueue
+}
