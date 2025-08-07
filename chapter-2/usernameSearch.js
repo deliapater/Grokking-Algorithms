@@ -43,24 +43,13 @@ function binarySearch(arr, target) {
 function login(usernames, username) {
   const index = binarySearch(usernames, username);
   if (index !== -1) {
-    console.log(`Loggin successful: ${username} (found at index ${index})`);
+    console.log(`Login successful: ${username} (found at index ${index})`);
   } else {
     console.log(`Login failed: ${username} not found`);
   }
 }
 
-const usernames = [
-  "alice",
-  "bob",
-  "charlie",
-  "david",
-  "emily",
-  "frank",
-  "george",
-  "helen",
-  "ian",
-  "jessica",
-];
-
-login(usernames, "charlie");
-login(usernames, "zoe");
+module.exports = {
+  binarySearch,
+  login,
+};
