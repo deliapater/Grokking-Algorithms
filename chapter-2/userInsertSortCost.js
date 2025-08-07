@@ -8,28 +8,37 @@
  * Sign-up (insertion into sorted array) is slow: 0(n) for find + 0(n) for shift or 0(n log n) if you re-sort the array after push.
  */
 
-/**
- * @param {Array<string>} arr - Sorted array of usernames
- * @param {string} newUser - New username to insert
- * Inserts user and keeps array sorted (simple method)
- */
-function insertUserSorted(arr, newUser) {
-  arr.push(newUser);
-  arr.sort();
-}
+// function insertUserSorted(arr, newUser) {
+//   arr.push(newUser);
+//   arr.sort();
+// }
 
 /**
  * @param {Array<string} arr - Sorted array of usernames
  * @param {string} target - Username to find
  * @returns {number} - Index if found, else -1
  */
-function insertUserSorted(arr, target) {
+function insertUserSorted(arr, newUser) {
   const index = arr.findIndex((name) => name > newUser);
   if (index === -1) {
     arr.push(newUser);
   } else {
     arr.splice(index, 0, newUser);
   }
+}
+
+function binarySearch(arr, target) {
+  let low = 0;
+  let high = arr.length - 1;
+
+  while (low <= high) {
+    const mid = Math.floor((low + high) / 2);
+    if (arr[mid] === target) return mid;
+    else if (arr[mid] < target) low = mid + 1;
+    else high = mid - 1;
+  }
+
+  return -1;
 }
 
 /**
@@ -40,7 +49,6 @@ function insertUserSorted(arr, target) {
 function signUp(usernames, newUser) {
   console.log(`Signing up user: ${newUser}`);
   insertUserSorted(usernames, newUser);
-  console.log("Sorted user list:", usernames);
 }
 
 /**
@@ -50,17 +58,12 @@ function signUp(usernames, newUser) {
  */
 function login(usernames, username) {
   const index = binarySearch(usernames, username);
-  if (index !== -1) {
-    console.log(`Login successfull: ${username}`);
-  } else {
-    console.log(`Login failed: ${username} not found`);
-  }
+  return index !== -1;
 }
 
-const usernames = ["alice", "bob", "charlie", "david"];
-
-signUp(usernames, "aaron");
-signUp(usernames, "eve");
-
-login(usernames, "alice");
-login(usernames, "zoe");
+module.exports = {
+  insertUserSorted,
+  binarySearch,
+  signUp,
+  login
+}
