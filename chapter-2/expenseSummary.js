@@ -27,9 +27,9 @@ function getAverage() {
   return getTotal() / expenses.length;
 }
 
-addExpense(15.99, "Groceries");
-addExpense(8.5, "Coffee");
-addExpense(27.0, "Book");
-
-console.log("Total spent:", `$${getTotal().toFixed(2)}`);
-console.log("Average daily expense:", `$${getAverage().toFixed(2)}`);
+module.exports = {
+  expenses,
+  addExpense,
+  getTotal,
+  getAverage,
+};
