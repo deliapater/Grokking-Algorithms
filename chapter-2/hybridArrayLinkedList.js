@@ -82,3 +82,11 @@ addUser("Zahkir H");
 
 searchUser("Zakhir H");
 searchUser("Zane");
+
+module.exports = {
+  LinkedList,
+  getSlotIndex,
+  addUser,
+  searchUser,
+  userDirectory
+}
