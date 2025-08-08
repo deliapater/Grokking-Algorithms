@@ -39,8 +39,6 @@ function factorial(n) {
   }
   return n * factorial(n - 1);
 }
-console.log("\n--- Factorial Demo ---");
-console.log(factorial(5));
 
 /**
  * Excercise 3.2
@@ -56,5 +54,7 @@ function factorialIterative(n) {
   }
   return result;
 }
-console.log("\n--- Iterative Demo ---");
-console.log(factorialIterative(6));
+
+module.exports = {
+  greet, greet2, factorial, factorialIterative
+}
