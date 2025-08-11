@@ -9,8 +9,6 @@ function sum(arr) {
   if (arr.length === 0) return 0;
   return arr[0] + sum(arr.slice(1));
 }
-console.log("\n--- Array Sum Demo ---");
-console.log(sum([1, 2, 3, 4]));
 
 /** Exercise 4.2
  * ---------------
@@ -23,9 +21,6 @@ function countItems(arr) {
   return 1 + countItems(arr.slice(1));
 }
 
-console.log("\n--- Number of Items Demo ---");
-console.log(countItems([10, 20, 30, 40]));
-
 /**
  * Exercise 4.3
  * ---------------
@@ -35,13 +30,11 @@ console.log(countItems([10, 20, 30, 40]));
  */
 function findMax(arr) {
   if (arr.length === 1) {
-    return [0];
+    return arr[0];
   }
   const subMax = findMax(arr.slice(1));
   return arr[0] > subMax ? arr[0] : subMax;
 }
-console.log("\n--- Max Number Demo ---");
-console.log(findMax([3, 9, 2, 5, 11, 4]));
 
 /**
  * Exercise 4.4
@@ -54,5 +47,10 @@ function binarySteps(n) {
   if (n <= 1) return 0;
   return 1 + binarySteps(n / 2);
 }
-console.log("\n--- Binary Steps Demo ---");
-console.log(binarySteps(128));
+
+module.exports = {
+  sum,
+  countItems,
+  findMax,
+  binarySteps,
+};
