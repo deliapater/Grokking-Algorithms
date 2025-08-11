@@ -56,3 +56,7 @@ function multiplicationTable(arr) {
 }
 console.log("\n---Multiplication Table Demo ---");
 console.log(multiplicationTable([2, 4, 5, 8]));
+
+module.exports = {
+  doubleElements, doubleFirstElement, multiplicationTable
+}
