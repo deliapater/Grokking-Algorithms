@@ -69,3 +69,7 @@ function hashD(str, hashSize) {
   }
   return sum % hashSize;
 }
+
+module.exports = {
+  hashA, hashB, hashC, hashD
+}
