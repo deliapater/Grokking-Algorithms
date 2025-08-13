@@ -30,3 +30,7 @@ const costs = {
 const processed = new Set();
 console.log("\n---Dijkrtra Algorithm Demo ---");
 console.log(findLowestCostNode(costs, processed));
+
+module.exports = {
+  findLowestCostNode
+}
