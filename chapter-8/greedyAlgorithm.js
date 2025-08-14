@@ -42,3 +42,7 @@ console.log("Planned Itinerary:")
 itinerary.forEach(place => {
     console.log(`- ${place.name} (${place.points} pts), ${place.time} hrs`);
 })
+
+module.exports = {
+    planTrip
+}
