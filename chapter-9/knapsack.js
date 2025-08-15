@@ -44,13 +44,6 @@ function knapsack(items, capacity) {
   return chosenItems.reverse();
 }
 
-const items = [
-  { name: "Water", weight: 3, value: 10 },
-  { name: "Book", weight: 1, value: 3 },
-  { name: "Food", weight: 2, value: 9 },
-  { name: "Jacket", weight: 2, value: 5 },
-  { name: "Camera", weight: 1, value: 6 },
-];
-console.log("Packed Items:");
-const packed = knapsack(items, 6);
-console.log(packed.map((item) => item.name));
+module.exports = {
+  knapsack,
+};
