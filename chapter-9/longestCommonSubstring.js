@@ -38,7 +38,6 @@ function longestCommonSubstring(str1, str2) {
   }
 }
 
-const result = longestCommonSubstring("blue", "clues");
-console.log("Longest Common Substring:", result.substring);
-console.log("Length:", result.length);
-console.log("Grid:", result.grid);
+module.exports = {
+  longestCommonSubstring,
+};
